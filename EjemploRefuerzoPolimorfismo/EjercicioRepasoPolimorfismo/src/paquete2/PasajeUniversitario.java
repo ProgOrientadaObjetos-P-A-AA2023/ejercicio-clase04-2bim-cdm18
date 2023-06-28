@@ -18,6 +18,30 @@ public class PasajeUniversitario extends PasajeUrbano {
     public void establecerValorPasaje() {
         valorPasaje = valorFijo - (valorFijo*0.3);
     }
+
+    public double getValorPasaje() {
+        return valorPasaje;
+    }
+
+    public void setValorPasaje(double vP) {
+        valorPasaje = vP;
+    }
+
+    public double getValorFijo() {
+        return valorFijo;
+    }
+
+    public void setValorFijo(double vF) {
+        valorFijo = vF;
+    }
+
+    public Persona getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(Persona u) {
+        usuario = u;
+    }
     
     
        

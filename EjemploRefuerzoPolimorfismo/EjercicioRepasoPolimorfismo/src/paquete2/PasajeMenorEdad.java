@@ -20,6 +20,33 @@ public class PasajeMenorEdad extends PasajeUrbano {
         valorPasaje = valorFijo - (valorFijo * 0.2);
     }
 
+    public double getValorPasaje() {
+        return valorPasaje;
+    }
+
+    public void setValorPasaje(double vP) {
+        valorPasaje = vP;
+    }
+
+    public double getValorFijo() {
+        return valorFijo;
+    }
+
+    public void setValorFijo(double vF) {
+        valorFijo = vF;
+    }
+
+    public Persona getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(Persona U) {
+        usuario = U;
+    }
+
+    
+    
+    
     @Override
     public String toString() {
         return String.format("Tipo de pasaje: Menor de edad\n"
