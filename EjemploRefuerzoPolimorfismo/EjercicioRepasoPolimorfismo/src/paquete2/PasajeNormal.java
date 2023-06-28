@@ -15,6 +15,25 @@ public class PasajeNormal extends PasajeUrbano {
         super(pasaje);
     }
     
+    @Override
+    public void establecerValorPasaje() {
+        valorPasaje = valorFijo;
+    }
+
+    public double getValorPasaje() {
+        return valorPasaje;
+    }
+
+    public double getValorFijo() {
+        return valorFijo;
+    }
+
+    public Persona getUsuario() {
+        return usuario;
+    }
+    
+    
+    
     
     @Override
     public String toString(){
